@@ -1,0 +1,4 @@
+C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/build/CMakeFiles/hello_notepad.dir
+C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/build/CMakeFiles/edit_cache.dir
+C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/build/CMakeFiles/rebuild_cache.dir
+C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/build/CMakeFiles/hello_notepad_autogen.dir
