@@ -14,6 +14,7 @@ hello_notepad::hello_notepad(QWidget* parent)
 
     connect(ui->actionNew,&QAction::triggered,this,&hello_notepad::New);
     connect(ui->actionSave,&QAction::triggered,this,&hello_notepad::Save);
+    connect(ui->actionOpen,&QAction::triggered,this,&hello_notepad::Open);
 }
 
 hello_notepad::~hello_notepad()
@@ -47,5 +48,21 @@ void hello_notepad::Save()
     QString text = ui->textEdit->toPlainText();
     out << text;
     file.close();
-
 }
+
+void hello_notepad::Open()
+{
+    QString fileName = QFileDialog::getOpenFileName(this,"Open","*.txt");
+    QFile file(fileName);
+    if(!file.open(QIODevice::ReadOnly | QFile::Text)){
+        QMessageBox::warning(this,"Error","Cannot open file");
+        return;
+    }
+    setWindowTitle(fileName);
+    QTextStream in(&file);
+    QString text = in.readAll();
+    ui->textEdit->setText(text);
+    file.close();
+    currentFile = fileName;
+}
+

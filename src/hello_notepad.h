@@ -12,6 +12,7 @@ public:
 private slots:
     void New();
     void Save();
+    void Open();
 
 private:
     Ui_hello_notepad* ui;
