@@ -310,4 +310,6 @@ CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtoolbar.h \
  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
- C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QString \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstring.h

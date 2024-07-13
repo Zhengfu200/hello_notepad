@@ -310,5 +310,19 @@ CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.obj: \
  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QString \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstring.h \
  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfile.h \
- C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfiledevice.h
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfiledevice.h \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QFile \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfile.h \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QTextStream \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qtextstream.h \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QFileDialog \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qfiledialog.h \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdir.h \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfileinfo.h \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfile.h \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdialog.h \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMessageBox \
+ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmessagebox.h

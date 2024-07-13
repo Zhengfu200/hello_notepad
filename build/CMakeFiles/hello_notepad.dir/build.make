@@ -73,45 +73,45 @@ CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.obj: CMa
 CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.obj: hello_notepad_autogen/mocs_compilation.cpp
 CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.obj: CMakeFiles/hello_notepad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.obj"
-	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\hello_notepad.dir\hello_notepad_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\hello_notepad.dir\hello_notepad_autogen\mocs_compilation.cpp.obj -c C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\build\hello_notepad_autogen\mocs_compilation.cpp
+	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\hello_notepad.dir\hello_notepad_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\hello_notepad.dir\hello_notepad_autogen\mocs_compilation.cpp.obj -c C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\build\hello_notepad_autogen\mocs_compilation.cpp
 
 CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.i"
-	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\build\hello_notepad_autogen\mocs_compilation.cpp > CMakeFiles\hello_notepad.dir\hello_notepad_autogen\mocs_compilation.cpp.i
+	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\build\hello_notepad_autogen\mocs_compilation.cpp > CMakeFiles\hello_notepad.dir\hello_notepad_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.s"
-	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\build\hello_notepad_autogen\mocs_compilation.cpp -o CMakeFiles\hello_notepad.dir\hello_notepad_autogen\mocs_compilation.cpp.s
+	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\build\hello_notepad_autogen\mocs_compilation.cpp -o CMakeFiles\hello_notepad.dir\hello_notepad_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.obj: CMakeFiles/hello_notepad.dir/flags.make
 CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.obj: CMakeFiles/hello_notepad.dir/includes_CXX.rsp
 CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.obj: C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/src/hello_notepad.cpp
 CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.obj: CMakeFiles/hello_notepad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.obj"
-	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.obj -MF CMakeFiles\hello_notepad.dir\src\hello_notepad.cpp.obj.d -o CMakeFiles\hello_notepad.dir\src\hello_notepad.cpp.obj -c C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\hello_notepad.cpp
+	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.obj -MF CMakeFiles\hello_notepad.dir\src\hello_notepad.cpp.obj.d -o CMakeFiles\hello_notepad.dir\src\hello_notepad.cpp.obj -c C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\hello_notepad.cpp
 
 CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.i"
-	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\hello_notepad.cpp > CMakeFiles\hello_notepad.dir\src\hello_notepad.cpp.i
+	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\hello_notepad.cpp > CMakeFiles\hello_notepad.dir\src\hello_notepad.cpp.i
 
 CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.s"
-	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\hello_notepad.cpp -o CMakeFiles\hello_notepad.dir\src\hello_notepad.cpp.s
+	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\hello_notepad.cpp -o CMakeFiles\hello_notepad.dir\src\hello_notepad.cpp.s
 
 CMakeFiles/hello_notepad.dir/src/main.cpp.obj: CMakeFiles/hello_notepad.dir/flags.make
 CMakeFiles/hello_notepad.dir/src/main.cpp.obj: CMakeFiles/hello_notepad.dir/includes_CXX.rsp
 CMakeFiles/hello_notepad.dir/src/main.cpp.obj: C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/src/main.cpp
 CMakeFiles/hello_notepad.dir/src/main.cpp.obj: CMakeFiles/hello_notepad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hello_notepad.dir/src/main.cpp.obj"
-	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_notepad.dir/src/main.cpp.obj -MF CMakeFiles\hello_notepad.dir\src\main.cpp.obj.d -o CMakeFiles\hello_notepad.dir\src\main.cpp.obj -c C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\main.cpp
+	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_notepad.dir/src/main.cpp.obj -MF CMakeFiles\hello_notepad.dir\src\main.cpp.obj.d -o CMakeFiles\hello_notepad.dir\src\main.cpp.obj -c C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\main.cpp
 
 CMakeFiles/hello_notepad.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello_notepad.dir/src/main.cpp.i"
-	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\main.cpp > CMakeFiles\hello_notepad.dir\src\main.cpp.i
+	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\main.cpp > CMakeFiles\hello_notepad.dir\src\main.cpp.i
 
 CMakeFiles/hello_notepad.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello_notepad.dir/src/main.cpp.s"
-	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\main.cpp -o CMakeFiles\hello_notepad.dir\src\main.cpp.s
+	C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lgy08\Desktop\zhengfu200\Qt\hello_notepad\src\main.cpp -o CMakeFiles\hello_notepad.dir\src\main.cpp.s
 
 # Object files for target hello_notepad
 hello_notepad_OBJECTS = \

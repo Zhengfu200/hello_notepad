@@ -46,7 +46,7 @@
 						"mingwex"
 					]
 				},
-				"path" : "C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/g++.exe",
+				"path" : "C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/c++.exe",
 				"version" : "7.3.0"
 			},
 			"language" : "CXX",

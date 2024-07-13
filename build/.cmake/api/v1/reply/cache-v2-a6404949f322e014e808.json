@@ -155,11 +155,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/g++.exe"
+			"type" : "FILEPATH",
+			"value" : "C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/c++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -288,18 +288,6 @@
 			],
 			"type" : "STRING",
 			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "STRING",
-			"value" : "C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_DLLTOOL",
@@ -724,18 +712,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_PREFIX_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "STRING",
-			"value" : "C:/Qt/Qt5.14.2/5.14.2/mingw73_64"
 		},
 		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
@@ -1164,18 +1140,6 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
-		},
-		{
-			"name" : "QT_QMAKE_EXECUTABLE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "STRING",
-			"value" : "C:/Qt/Qt5.14.2/5.14.2/mingw73_64/bin/qmake.exe"
 		},
 		{
 			"name" : "Qt5Core_DIR",

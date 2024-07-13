@@ -1,19 +1,19 @@
 [
 {
   "directory": "C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/build",
-  "command": "C:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/hello_notepad.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\hello_notepad.dir\\hello_notepad_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\lgy08\\Desktop\\zhengfu200\\Qt\\hello_notepad\\build\\hello_notepad_autogen\\mocs_compilation.cpp",
+  "command": "C:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\c++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/hello_notepad.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\hello_notepad.dir\\hello_notepad_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\lgy08\\Desktop\\zhengfu200\\Qt\\hello_notepad\\build\\hello_notepad_autogen\\mocs_compilation.cpp",
   "file": "C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/build/hello_notepad_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.obj"
 },
 {
   "directory": "C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/build",
-  "command": "C:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/hello_notepad.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\hello_notepad.dir\\src\\hello_notepad.cpp.obj -c C:\\Users\\lgy08\\Desktop\\zhengfu200\\Qt\\hello_notepad\\src\\hello_notepad.cpp",
+  "command": "C:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\c++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/hello_notepad.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\hello_notepad.dir\\src\\hello_notepad.cpp.obj -c C:\\Users\\lgy08\\Desktop\\zhengfu200\\Qt\\hello_notepad\\src\\hello_notepad.cpp",
   "file": "C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/src/hello_notepad.cpp",
   "output": "CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.obj"
 },
 {
   "directory": "C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/build",
-  "command": "C:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/hello_notepad.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\hello_notepad.dir\\src\\main.cpp.obj -c C:\\Users\\lgy08\\Desktop\\zhengfu200\\Qt\\hello_notepad\\src\\main.cpp",
+  "command": "C:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\c++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/hello_notepad.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\hello_notepad.dir\\src\\main.cpp.obj -c C:\\Users\\lgy08\\Desktop\\zhengfu200\\Qt\\hello_notepad\\src\\main.cpp",
   "file": "C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/src/main.cpp",
   "output": "CMakeFiles/hello_notepad.dir/src/main.cpp.obj"
 }
