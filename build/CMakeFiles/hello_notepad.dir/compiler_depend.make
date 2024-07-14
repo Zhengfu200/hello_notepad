@@ -100,25 +100,29 @@ CMakeFiles/hello_notepad.dir/hello_notepad_autogen/mocs_compilation.cpp.obj: hel
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QAction \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLayout \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
-  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTextEdit \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QToolBar \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QToolBox \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
-  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtextedit.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtoolbar.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtoolbox.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
@@ -418,29 +422,33 @@ CMakeFiles/hello_notepad.dir/src/hello_notepad.cpp.obj: C:/Users/lgy08/Desktop/z
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QAction \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QFileDialog \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLayout \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
-  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMessageBox \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTextEdit \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QToolBar \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QToolBox \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdialog.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qfiledialog.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
-  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtextedit.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtoolbar.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtoolbox.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
@@ -731,25 +739,29 @@ CMakeFiles/hello_notepad.dir/src/main.cpp.obj: C:/Users/lgy08/Desktop/zhengfu200
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QAction \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLayout \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
-  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTextEdit \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QToolBar \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QToolBox \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
-  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtextedit.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtoolbar.h \
+  C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtoolbox.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
@@ -1126,6 +1138,8 @@ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvector.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ostream:
 
+C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h:
+
 C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qversiontagging.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/uniform_int_dist.h:
@@ -1200,9 +1214,9 @@ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QAction:
 
 C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication:
 
-C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow:
+C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLayout:
 
-C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar:
+C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow:
 
 C:/Users/lgy08/Desktop/zhengfu200/Qt/hello_notepad/src/hello_notepad.h:
 
@@ -1216,6 +1230,8 @@ C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bi
 
 C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTextEdit:
 
+C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QToolBox:
+
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
 
 C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h:
@@ -1226,17 +1242,17 @@ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h:
 
 C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h:
 
+C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h:
+
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_base.h:
 
 C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h:
 
+C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h:
+
+C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h:
+
 C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h:
-
-C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/memoryfwd.h:
-
-C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h:
-
-C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/string_s.h:
 
@@ -1249,6 +1265,8 @@ C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h:
 C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtextedit.h:
 
 C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtoolbar.h:
+
+C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtoolbox.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/ctype.h:
 
@@ -1339,6 +1357,8 @@ C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bi
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_facets.tcc:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/localefwd.h:
+
+C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/memoryfwd.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/ostream.tcc:
 

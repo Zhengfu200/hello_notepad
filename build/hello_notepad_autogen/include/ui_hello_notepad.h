@@ -13,7 +13,6 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTextEdit>
 #include <QtWidgets/QToolBar>
@@ -28,9 +27,10 @@ public:
     QAction *actionOpen;
     QAction *actionSave;
     QAction *actionBold;
+    QAction *actionItalic;
+    QAction *actionunderline;
     QWidget *centralwidget;
     QTextEdit *textEdit;
-    QMenuBar *menubar;
     QStatusBar *statusbar;
     QToolBar *toolBar;
 
@@ -47,16 +47,16 @@ public:
         actionSave->setObjectName(QString::fromUtf8("actionSave"));
         actionBold = new QAction(hello_notepad);
         actionBold->setObjectName(QString::fromUtf8("actionBold"));
+        actionItalic = new QAction(hello_notepad);
+        actionItalic->setObjectName(QString::fromUtf8("actionItalic"));
+        actionunderline = new QAction(hello_notepad);
+        actionunderline->setObjectName(QString::fromUtf8("actionunderline"));
         centralwidget = new QWidget(hello_notepad);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         textEdit = new QTextEdit(centralwidget);
         textEdit->setObjectName(QString::fromUtf8("textEdit"));
         textEdit->setGeometry(QRect(10, 10, 104, 87));
         hello_notepad->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(hello_notepad);
-        menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 800, 26));
-        hello_notepad->setMenuBar(menubar);
         statusbar = new QStatusBar(hello_notepad);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
         hello_notepad->setStatusBar(statusbar);
@@ -68,6 +68,9 @@ public:
         toolBar->addAction(actionOpen);
         toolBar->addAction(actionSave);
         toolBar->addAction(actionBold);
+        toolBar->addAction(actionItalic);
+        toolBar->addSeparator();
+        toolBar->addAction(actionunderline);
 
         retranslateUi(hello_notepad);
 
@@ -81,6 +84,8 @@ public:
         actionOpen->setText(QCoreApplication::translate("hello_notepad", "Open", nullptr));
         actionSave->setText(QCoreApplication::translate("hello_notepad", "Save", nullptr));
         actionBold->setText(QCoreApplication::translate("hello_notepad", "Bold", nullptr));
+        actionItalic->setText(QCoreApplication::translate("hello_notepad", "Italic", nullptr));
+        actionunderline->setText(QCoreApplication::translate("hello_notepad", "underline", nullptr));
         toolBar->setWindowTitle(QCoreApplication::translate("hello_notepad", "toolBar", nullptr));
     } // retranslateUi
 

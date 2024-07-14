@@ -10,12 +10,16 @@ public:
     ~hello_notepad();
 
     bool boldcheck = false;
+    bool italiccheck = false;
+    bool underlinecheck = false;
 
 private slots:
     void New();
     void Save();
     void Open();
     void Bold();
+    void Italic();
+    void Underline();    
     void mergeFormat(QTextCharFormat fmt);
 
 private:

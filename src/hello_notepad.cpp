@@ -16,6 +16,8 @@ hello_notepad::hello_notepad(QWidget* parent)
     connect(ui->actionSave,&QAction::triggered,this,&hello_notepad::Save);
     connect(ui->actionOpen,&QAction::triggered,this,&hello_notepad::Open);
     connect(ui->actionBold,&QAction::triggered,this,&hello_notepad::Bold);
+    connect(ui->actionItalic,&QAction::triggered,this,&hello_notepad::Italic);
+    connect(ui->actionunderline,&QAction::triggered,this,&hello_notepad::Underline);
 
 }
 
@@ -89,6 +91,38 @@ void hello_notepad::Bold()
     }else{
         font.setBold(!font.Normal);
         boldcheck = false;
+    }
+    fmt.setFont(font);
+    mergeFormat(fmt);
+}
+
+void hello_notepad::Italic()
+{
+    QTextCharFormat fmt;
+    QFont font = fmt.font();
+    if(italiccheck==false)
+    {
+        font.setItalic(!font.italic());
+        italiccheck = true;
+    } else{
+        font.setItalic(!font.Normal);
+        italiccheck = false;
+    }
+    fmt.setFont(font);
+    mergeFormat(fmt);
+}
+
+void hello_notepad::Underline()
+{
+    QTextCharFormat fmt;
+    QFont font = fmt.font();
+    if(underlinecheck==false)
+    {
+        font.setUnderline(true);
+        underlinecheck = true;
+    } else{
+        font.setUnderline(false);
+        underlinecheck = false;
     }
     fmt.setFont(font);
     mergeFormat(fmt);

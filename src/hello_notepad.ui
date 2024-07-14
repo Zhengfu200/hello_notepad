@@ -25,16 +25,6 @@
     </property>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>26</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QToolBar" name="toolBar">
    <property name="windowTitle">
@@ -50,6 +40,9 @@
    <addaction name="actionOpen"/>
    <addaction name="actionSave"/>
    <addaction name="actionBold"/>
+   <addaction name="actionItalic"/>
+   <addaction name="separator"/>
+   <addaction name="actionunderline"/>
   </widget>
   <action name="actionNew">
    <property name="text">
@@ -69,6 +62,16 @@
   <action name="actionBold">
    <property name="text">
     <string>Bold</string>
+   </property>
+  </action>
+  <action name="actionItalic">
+   <property name="text">
+    <string>Italic</string>
+   </property>
+  </action>
+  <action name="actionunderline">
+   <property name="text">
+    <string>underline</string>
    </property>
   </action>
  </widget>
