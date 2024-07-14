@@ -15,6 +15,8 @@ hello_notepad::hello_notepad(QWidget* parent)
     connect(ui->actionNew,&QAction::triggered,this,&hello_notepad::New);
     connect(ui->actionSave,&QAction::triggered,this,&hello_notepad::Save);
     connect(ui->actionOpen,&QAction::triggered,this,&hello_notepad::Open);
+    connect(ui->actionBold,&QAction::triggered,this,&hello_notepad::Bold);
+
 }
 
 hello_notepad::~hello_notepad()
@@ -66,3 +68,28 @@ void hello_notepad::Open()
     currentFile = fileName;
 }
 
+void hello_notepad::mergeFormat(QTextCharFormat fmt)
+{
+    QTextCursor cursor = ui->textEdit->textCursor();
+    if(!cursor.hasSelection())
+    {
+        cursor.select(QTextCursor::WordUnderCursor);
+    }
+    cursor.mergeCharFormat(fmt);
+}
+
+void hello_notepad::Bold()
+{
+    QTextCharFormat fmt;
+    QFont font = fmt.font();
+    if(boldcheck==false)
+    {
+        font.setBold(!font.bold());
+        boldcheck = true;
+    }else{
+        font.setBold(!font.Normal);
+        boldcheck = false;
+    }
+    fmt.setFont(font);
+    mergeFormat(fmt);
+}

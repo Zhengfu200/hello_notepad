@@ -49,6 +49,7 @@
    <addaction name="actionNew"/>
    <addaction name="actionOpen"/>
    <addaction name="actionSave"/>
+   <addaction name="actionBold"/>
   </widget>
   <action name="actionNew">
    <property name="text">
@@ -63,6 +64,11 @@
   <action name="actionSave">
    <property name="text">
     <string>Save</string>
+   </property>
+  </action>
+  <action name="actionBold">
+   <property name="text">
+    <string>Bold</string>
    </property>
   </action>
  </widget>

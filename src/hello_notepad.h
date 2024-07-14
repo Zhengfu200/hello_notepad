@@ -9,10 +9,14 @@ public:
     hello_notepad(QWidget* parent = nullptr);
     ~hello_notepad();
 
+    bool boldcheck = false;
+
 private slots:
     void New();
     void Save();
     void Open();
+    void Bold();
+    void mergeFormat(QTextCharFormat fmt);
 
 private:
     Ui_hello_notepad* ui;

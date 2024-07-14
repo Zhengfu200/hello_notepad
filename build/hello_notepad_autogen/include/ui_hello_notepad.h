@@ -27,6 +27,7 @@ public:
     QAction *actionNew;
     QAction *actionOpen;
     QAction *actionSave;
+    QAction *actionBold;
     QWidget *centralwidget;
     QTextEdit *textEdit;
     QMenuBar *menubar;
@@ -44,6 +45,8 @@ public:
         actionOpen->setObjectName(QString::fromUtf8("actionOpen"));
         actionSave = new QAction(hello_notepad);
         actionSave->setObjectName(QString::fromUtf8("actionSave"));
+        actionBold = new QAction(hello_notepad);
+        actionBold->setObjectName(QString::fromUtf8("actionBold"));
         centralwidget = new QWidget(hello_notepad);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         textEdit = new QTextEdit(centralwidget);
@@ -64,6 +67,7 @@ public:
         toolBar->addAction(actionNew);
         toolBar->addAction(actionOpen);
         toolBar->addAction(actionSave);
+        toolBar->addAction(actionBold);
 
         retranslateUi(hello_notepad);
 
@@ -76,6 +80,7 @@ public:
         actionNew->setText(QCoreApplication::translate("hello_notepad", "New", nullptr));
         actionOpen->setText(QCoreApplication::translate("hello_notepad", "Open", nullptr));
         actionSave->setText(QCoreApplication::translate("hello_notepad", "Save", nullptr));
+        actionBold->setText(QCoreApplication::translate("hello_notepad", "Bold", nullptr));
         toolBar->setWindowTitle(QCoreApplication::translate("hello_notepad", "toolBar", nullptr));
     } // retranslateUi
 
